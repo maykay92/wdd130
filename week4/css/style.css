@@ -14,6 +14,14 @@ a{
 }
 p {
     color: #EEF0F2;
+    width: 350px;
+    text-align: justify;
+}
+
+.statement {
+    color: #EEF0F2;
+    width: 700px;
+    text-align: justify;
 }
 header {
     background-color: #134266;
