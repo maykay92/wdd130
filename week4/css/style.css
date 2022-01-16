@@ -1,20 +1,32 @@
 body {
     background-color: #78C5D7;
-    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
     margin: 0px;
     padding: 0px;
   }
 
-h1, h2, h3 {
+h1 {
     color: #134266;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 64px;
 }
+
+h2 {
+    color: #134266;
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    font-size: 34px;
+}
+
 a{
     color: #FF745C;
+    font-family: 'Karla', sans-serif;
     display: grid;
 }
-p {
+.para {
     color: #EEF0F2;
-    width: 350px;
+    width: 480px;
     text-align: justify;
 }
 
@@ -22,6 +34,8 @@ p {
     color: #EEF0F2;
     width: 700px;
     text-align: justify;
+    margin: auto;
+    padding: 10px;
 }
 header {
     background-color: #134266;
