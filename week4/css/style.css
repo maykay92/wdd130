@@ -1,9 +1,14 @@
+.page {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 body {
     background-color: #78C5D7;
     font-family: 'Karla', sans-serif;
     font-size: 14px;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
 
 h1 {
@@ -21,7 +26,6 @@ h2 {
 
 a{
     color: #FF745C;
-    font-family: 'Karla', sans-serif;
     display: grid;
 }
 .para {
@@ -40,7 +44,7 @@ a{
 header {
     background-color: #134266;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
@@ -79,9 +83,4 @@ footer {
 
 .text-content {
     justify-self: left;
-}
-
-.page {
-    max-width: 960px;
-    margin: 0 auto;
 }
