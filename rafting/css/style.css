@@ -3,23 +3,32 @@
     margin: 0 auto;
 }
 
+.bbox img {
+    width: 960px;
+}
+
 body {
     background-color: #78C5D7;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Karla', sans-serif, Arial;
     font-size: 14px;
+    line-height: 150%;
     margin: 0;
     padding: 0;
   }
 
+.imgbox img {
+    box-shadow: 3px 4px 5px #134266;
+}
+
 h1 {
     color: #134266;
-    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Bubblegum Sans', monospace, cursive;
     font-size: 64px;
 }
 
 h2 {
     color: #134266;
-    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Bubblegum Sans', monospace, cursive;
     text-align: center;
     font-size: 34px;
 }
