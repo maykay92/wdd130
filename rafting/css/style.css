@@ -4,7 +4,9 @@
 }
 
 .bbox img {
-    width: 960px;
+    max-width: 100%;
+    position: relative;
+
 }
 
 body {
@@ -31,16 +33,41 @@ h2 {
     font-family: 'Bubblegum Sans', monospace, cursive;
     text-align: center;
     font-size: 34px;
+    box-sizing: content-box;
+    border: solid #5B6DCD 10px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: -20px;
+}
+
+h3 {
+    color: #134266;
+    font-family: 'Bubblegum Sans', monospace, cursive;
+    text-align: center;
+    font-size: 34px;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
 }
 
 a{
     color: #FF745C;
     display: grid;
 }
+
 .para {
     color: #EEF0F2;
-    width: 480px;
+    width: 380px;
+    margin: 20px;
     text-align: justify;
+    padding: 20px;
+}
+
+.content {
+    width: 480px;
 }
 
 .statement {
@@ -67,6 +94,12 @@ header {
 
 .threelink {
     grid-column: 3;
+}
+
+.information-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 ul {
