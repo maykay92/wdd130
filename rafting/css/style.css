@@ -20,6 +20,7 @@ body {
 
 .imgbox img {
     box-shadow: 3px 4px 5px #134266;
+    width: 450px;
 }
 
 h1 {
@@ -29,6 +30,7 @@ h1 {
 }
 
 h2 {
+    box-shadow: 2px 2px 5px #134266;
     color: #134266;
     background: #EEF0F2;
     font-family: 'Bubblegum Sans', monospace, cursive;
@@ -44,6 +46,7 @@ h2 {
 }
  
 h3 {
+    box-shadow: 2px 2px 5px #134266;
     color: #134266;
     background: #EEF0F2;
     font-family: 'Bubblegum Sans', monospace, cursive;

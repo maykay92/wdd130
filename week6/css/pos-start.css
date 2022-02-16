@@ -145,12 +145,6 @@
   height: 75px;
   background-color: red;
 }
-.yellow5 {
-  width: 570px;
-  height: 250px;
-  padding: 15px;
-  background-color: gold;
-}
 
 .green5 {
   width: 130px;
@@ -160,6 +154,14 @@
   float: left;
   background-color: green;
 }
+
+.yellow5 {
+  width: 570px;
+  height: 250px;
+  padding: 15px;
+  background-color: gold;
+}
+
 
 .blue5 {
   width: 600px;
