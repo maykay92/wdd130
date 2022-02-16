@@ -21,6 +21,14 @@ body {
 .imgbox img {
     box-shadow: 3px 4px 5px #134266;
     width: 450px;
+    grid-column: 2/2;
+}
+
+.imgboxtwo img {
+    box-shadow: 3px 4px 5px #134266;
+    width: 450px;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 h1 {
@@ -71,8 +79,22 @@ a{
     padding: 20px;
 }
 
+.paratwo {
+    color: #EEF0F2;
+    width: 380px;
+    margin: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+
 .content {
     width: 480px;
+    grid-column: 1/2;
+}
+
+.contenttwo {
+    width: 480px;
+    grid-column: 2/2;
 }
 
 .statement {
