@@ -65,10 +65,18 @@ body {
     grid-row: 2/2;
 }
 
+.imgboxthree img {
+    box-shadow: 3px 4px 5px #3E606F;
+}
+
 .imgboxtfour {
     padding: 20px;
     grid-column: 2/2;
     grid-row: 2/2;
+}
+
+.imgboxfour img {
+    box-shadow: 3px 4px 5px #3E606F;
 }
 
 h1 {
@@ -89,6 +97,12 @@ h2, h3 {
     padding: 30px;
 }
 
+h4 {
+    color: #34453C;
+    font-family: 'Bubblegum Sans', monospace, cursive;
+    font-size: 20px;
+    padding: 0px;
+}
 
 .nav a{
     display: block;
@@ -127,8 +141,8 @@ a{
 }
 
 .faqcontent {
-    width: 480px;
-    height: 715px;
+    max-width: 480px;
+    height: 700px;
     overflow: scroll;
     grid-column: 1/2;
 }
