@@ -59,6 +59,18 @@ body {
     grid-row: 2/3;
 }
 
+.imgboxthree {
+    padding: 20px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.imgboxtfour {
+    padding: 20px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
 h1 {
     color: #3E606F;
     font-family: 'Bubblegum Sans', monospace, cursive;
@@ -114,6 +126,13 @@ a{
     grid-column: 1/2;
 }
 
+.faqcontent {
+    width: 480px;
+    height: 715px;
+    overflow: scroll;
+    grid-column: 1/2;
+}
+
 .contenttwo {
     width: 480px;
     grid-column: 2/3;
@@ -137,6 +156,10 @@ header {
 
 .information-box {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 365px 365px;
+    justify-items: center;
+    
 }
 
 ul {
