@@ -170,6 +170,11 @@ header {
 
 .information-box {
     display: grid;
+    
+}
+
+.information-boxtwo {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 365px 365px;
     justify-items: center;
