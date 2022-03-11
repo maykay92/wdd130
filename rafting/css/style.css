@@ -79,13 +79,7 @@ body {
     box-shadow: 3px 4px 5px #3E606F;
 }
 
-h1 {
-    color: #3E606F;
-    font-family: 'Bubblegum Sans', monospace, cursive;
-    font-size: 64px;
-}
-
-h2, h3 {
+h1, h2, h3 {
     box-shadow: 2px 2px 5px #3E606F;
     color: #3E606F;
     background: #EEF0F2;
