@@ -30,7 +30,7 @@ form {
     box-sizing: border-box;
     border: 1px solid #888;
     padding: .5em;
-    background: #FCFFF5; 
+    background: #EBF1F2; 
   }
   
   input:focus,
@@ -49,5 +49,5 @@ form {
   
   button {
     margin-left: .5em;
-    background: #FCFFF5;
+    background: #EBF1F2;
   }
