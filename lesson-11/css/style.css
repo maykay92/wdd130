@@ -2,8 +2,9 @@ form {
     margin: 0 auto;
     width: 400px;
     padding: 1em;
-    border: 1px solid #CCC;
+    border: 1px solid #3E606F;
     border-radius: 1em;
+    background: #91AA9D;
   }
   
   ul {
@@ -27,8 +28,9 @@ form {
     font: 1em sans-serif;
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid #999;
+    border: 1px solid #888;
     padding: .5em;
+    background: #FCFFF5; 
   }
   
   input:focus,
@@ -47,4 +49,5 @@ form {
   
   button {
     margin-left: .5em;
+    background: #FCFFF5;
   }
