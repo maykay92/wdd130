@@ -1,6 +1,6 @@
 body {
     background-color: #f2f2f2;
-    font-family: 'Karla', sans-serif, Arial;
+    font-family: 'poppins', sans-serif, Arial;
     font-size: 14px;
     line-height: 150%;
     margin: 0;
@@ -12,17 +12,16 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Aclonica', monospace, cursive;
     text-align: center;
     font-size: 34px;
 }
 
 h4 {
-    color: #34453C;
-    font-family: 'Oswald', monospace, cursive;
+    font-family: 'oswald', monospace, cursive;
+    text-align: center;
     font-size: 20px;
-    padding: 0px;
 }
 
 header {
@@ -223,6 +222,11 @@ ul {
     font-size: 24px;
     padding: 25px;
 
+}
+
+.lastpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer {
