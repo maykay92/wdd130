@@ -160,7 +160,7 @@ ul {
     width: 190px;
     border-radius: 25px;
     border: solid #8697a6 10px;
-    font-family: 'oswald', monospace, cursive;
+    font-family: 'poppins', monospace, cursive;
     text-align: center;
     margin-top: 30px;
     margin-left: 40px;
@@ -176,6 +176,47 @@ ul {
     margin-left: 35px;
     grid-column: 2/2;
     grid-row: 3/3;
+}
+
+.pets {
+    max-width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 470px 420px;
+}
+
+.petsone, .petstwo {
+    width: 330px;
+    height: 425px;
+    padding: 45px;
+}
+
+.petsone img, .petstwo img {
+    box-shadow: 3px 4px 5px #3E606F;
+}
+
+.petinfobunni, .petinfokota {
+    position: absolute;
+    top: 55%;
+    left: 45px;
+    background: #EEF0F2;
+    font-size: 20px;
+    font-family: 'poppins', monospace, cursive;
+    color: #3E606F;
+    box-sizing: content-box;
+    border: solid #8697a6 10px;
+    padding: 30px;
+    opacity: .8;
+    box-shadow: 2px 2px 5px #3E606F;
+    color: #3E606F;
+}
+.petinfokota {
+    top: 55%;
+    left: 515px;
+}
+
+.adoptbutton {
+    
 }
 
 footer {
