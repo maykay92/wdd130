@@ -25,6 +25,8 @@ h4 {
 }
 
 header {
+    max-width: 100%;
+    position: relative;
     background-color: #011F26;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -39,7 +41,7 @@ header {
 .hbox {
     position: absolute;
     top: -.2%;
-    left: 14%;
+    left: 9%;
     font-size: 23px;
     font-family: 'Aclonica', monospace, cursive;
     color: #f2f2f2;
