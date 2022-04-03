@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dakota's Rescue is a site for adopting huskies and malamutes in need of a home. adopt, don't shop!">
+    <meta name="description" content="The Dry Oar site contains information about white river rafting and the fun activities you can include the whole family in!">
     <title>Dakota's Rescue</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,20 +37,32 @@
             </nav>
         </header>
         <main>
-            <div class="openbar">
-                <div class="one"><img src="images/bunni.png" width="250" alt="bunni"></div>
-                <div class="two"><img src="images/dakota.png" width="250" alt="dakota"></div>
-                <div class="three"><img src="images/luka.png" width="250" alt="luka"></div>
-            </div>
-            <div class="allbox">
-                <div class="aboutbox"><h2>ABOUT</h2><br>
-                <div class="para">testing</div>
-                </div>
-                <div class="adopt"><a href="adopt.html">ADOPT NOW</a></div>
-                <div class="info"><b>phone number:</b><br>626-205-4358<br><br><b>address and email:</b><br>1234 street name here,<br>south jordan, utah 84009<br>kmariemayer92@gmail.com</div>
-                <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193996.41145820532!2d-112.12311029064901!3d40.55939450523678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875285898dabc993%3A0xf566008fdec9b355!2sSouth%20Jordan%2C%20UT!5e0!3m2!1sen!2sus!4v1648929751368!5m2!1sen!2sus" width="250" height="230"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            </div>
-        </main>
+    
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                 <li>
+                   <label for="name">Name:</label>
+                   <input type="text" id="name" name="user_name" required>
+                 </li>
+                 <li>
+                   <label for="mail">E-mail:</label>
+                   <input type="email" id="mail" name="user_email" required>
+                 </li>
+                 <li>
+                   <label for="mail">Wanted Pup:</label>
+                   <input type="text" id="name" name="user_pup" required>
+                 </li>
+                 <li>
+                   <label for="msg">Message:</label>
+                   <textarea id="msg" name="user_message" required></textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit"><a href="https://maykay92.github.io/wdd130/finalproject/index.html">Send your message</a></button>
+                  </li>
+                </ul>
+               </form>
+        
+            </main>
         <footer>
             <div class="text-content">© 2022 Dakota's Rescue - Kathryn Mayer - WDD130 </div>
             <div class="icons">

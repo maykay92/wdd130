@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3  {
     font-family: 'Aclonica', monospace, cursive;
     text-align: center;
     font-size: 34px;
@@ -40,8 +40,8 @@ header {
 
 .hbox {
     position: absolute;
-    top: -.2%;
-    left: 9%;
+    top: -13px;
+    left: 7%;
     font-size: 23px;
     font-family: 'Aclonica', monospace, cursive;
     color: #f2f2f2;
@@ -97,7 +97,7 @@ a:active {
   }
 
 
-ul {
+.nav {
     list-style: none;
     display: flex;
 }
@@ -230,6 +230,59 @@ ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+form {
+    margin: 0 auto;
+    width: 866px;
+    padding: 3em;
+    border: 5px solid #011f26;
+    background: #8697A6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 730px;
+    box-sizing: border-box;
+    border: 1px solid #888;
+    padding: .5em;
+    background: #EBF1F2; 
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+    background: #EBF1F2;
+  }
 
 footer {
     background-color: #011F26;
